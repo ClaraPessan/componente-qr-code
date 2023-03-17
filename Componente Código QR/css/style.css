@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(219, 50%, 87%);
+}
+
+.caixa {
+    width: 280px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 100%);
+    align-items: center;
+    text-align: center;
+}
+
+.imagem-code {
+    width: 255px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 13px;
+    border-radius: 10px;
+}
+
+.conteudo {
+    font-family: 'Outfit', sans-serif;
+    margin: 20px 28px;
+}
+
+.titulo {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+
+.subtitulo {
+    font-size: 13px;
+    font-weight: 400;
+    color: hsl(213, 9%, 62%);
+    margin: 16px 0;
+}
